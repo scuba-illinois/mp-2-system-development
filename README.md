@@ -8,13 +8,17 @@ This repository contains the instructions and template files to complete our sec
 * [Google Chrome's documentation](https://developer.chrome.com/docs/extensions)
 
 ## Files
-
 To help you get started, we've provided you with a few starter files. Here is a summary of each one and why you would need to change it:
-* [`webpack.config.js`](webpack.config.js): file to define how your files are bundled when built. Only edit this if you add new javascript files or css files.
-* [`public/manifest.json`](public/manifest.json): file defining structure and permissions for your extension. See more information in the [documentation](https://developer.chrome.com/docs/extensions/reference/manifest).
-* [`public/data/mp-logo.png`](public/manifest.json): default logo to appear in the Chrome extension page.
-* [`src/script.js`](src/script.js): content script containing tool's actual behavior. Use this file to interact with webpage HTML.
-* [`src/script.css`](src/script.css): here's where you should define the CSS for any custom elements you create and use in [`src/script.js`](src/script.js).
+
+| File name            | Short description                                 |
+|----------------------|---------------------------------------------------|
+| [`webpack.config.js`](./webpack.config.js) | file to define how your files are bundled when built. Only edit this if you add new javascript files or css files. |
+| [`public/manifest.json`](public/manifest.json) | file defining structure and permissions for your extension. See more information in the [documentation](https://developer.chrome.com/docs/extensions/reference/manifest).  |
+| [`public/data/mp-logo.png`](public/data/mp-logo.png)| default logo to appear in the Chrome extension page.  |
+| [`src/script.js`](src/script.js) | content script containing tool's actual behavior. Use this file to interact with webpage HTML. |
+| [`src/script.css`](src/script.css) | here's where you should define the CSS for any custom elements you create and use in [`src/script.js`](src/script.js). |
+---
+
 
 ## Setup
 
