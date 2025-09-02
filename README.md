@@ -28,7 +28,8 @@ Once these run successfully, open up `package.json` and add make sure the follow
   "watch": "webpack --watch",
   "build": "webpack",
   ...
-}```
+}
+```
 
 Back in the terminal, run this command:
 ```bash
