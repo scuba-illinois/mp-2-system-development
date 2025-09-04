@@ -4,13 +4,17 @@ This repository contains the instructions and template files to complete our sec
 
 ## Overview
 
-Training models and running statistical tests are powerful tools in an HCI researcher's toolbox, but how can a model or quantitative analysis actually reach communities and moderators? One way is by developing a tool or system that can be used in the real world by the target population. Interface design can enable researchers to implement novel interventions such as adding warnings to make users reflect (thread with caution), visualizations to add high-level summaries (convex), among many others.
+Training models and running statistical tests are powerful tools in an HCI researcher's toolbox, but how can a model or quantitative analysis actually reach communities and moderators? One way is by developing a tool or system that can be used in the real world by the target population. Interface design can enable researchers to implement novel interventions such as [adding user toxicity history to their profiles](https://drive.google.com/file/d/1VJQMcH5pRhin_6r34s__IlB4dDflwCnz/view?usp=drive_link), [visualizations to add high-level summaries](https://drive.google.com/file/d/1A8-bJRR39E4HN6gibKzWOGfmpRT7-783/view?usp=drive_link), among many others.
 
 For this MP, we're going to develop a simple browser extension using Javascript and CSS that will actually augment Reddit's interface to guide user attention where we want it to go! You have two tasks:
 
-**Task 1:** *highlight all posts in the front page of the r/science that has been highly upvoted*. More precisely, add a green box around the posts that have a score of at least 200.
+**Task 1:** *highlight all posts in the front page of the r/science that have been highly upvoted*. More precisely, add a green box around the posts that have a score of at least 200.
 
-**Task 2:** *hide all posts in the front page of the r/science community that have not been highly upvoted until the user clicks to reveal the original post*. Specifically, add an *interstitial* (i.e., an element that overlays another) to cover posts with a score less than 100. Add the ability to click the interstitial (or a button) to remove the interstitial and reveal the post.
+**Task 2:** *hide all posts in the front page of the r/science community that have not been highly upvoted until the user clicks to reveal the original post*. Specifically, add an *interstitial* (i.e., an element that overlays another) to cover posts with a score less than 100. Add the ability to click the interstitial (or a button) to remove the interstitial and reveal the post. Below is an example interstitial and what happens when it is revealed:
+<p float="left">
+<img src="./docs/interstitial.jpeg" alt="interstitial" width="300"/>
+<img src="./docs/interstitial-reveal.jpeg" alt="interstitial revealed" width="300"/>
+</p>
 
 Because of how Reddit renders its interface, please view the posts in **compact mode** (see the image below) and apply the highlight and interstitial elements to at least the top 10 posts. If you want to apply the elements to posts beyond the top 10, look into [**Mutation Observers**](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver), but this is not required!
 
@@ -83,7 +87,7 @@ Here is a sample workflow when you're developing:
 ## What to submit
 
 * `build-[NETID].zip`: the compressed build file. When extracted, the build folder inside should function when uploaded to the chrome extension page using the approach described above.
-* *A written report for both tasks:* Using [this](???) template, include a PDF file of a few paragraphs describing your approach for each task and include screenshots showing how your interface elements work.
+* *A written report for both tasks:* Using [this](https://docs.google.com/document/d/1pwVIB_gMqbzJ_9O3ZsJhaVCjiE4cqwnPWyLgyGj-0nw/edit?usp=sharing) template, include a PDF file of a few paragraphs describing your approach for each task and include screenshots showing how your interface elements work.
 
 ## Grading
 
