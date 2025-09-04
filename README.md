@@ -14,7 +14,7 @@ For this MP, we're going to develop a simple browser extension using Javascript 
 
 Because of how Reddit renders its interface, please view the posts in **compact mode** (see the image below) and apply the highlight and interstitial elements to at least the top 10 posts. If you want to apply the elements to posts beyond the top 10, look into [**Mutation Observers**](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver), but this is not required!
 
-<!-- INSERT IMAGE HERE -->
+<img src="./docs/compact_mode.png" alt="compact mode" width="200"/>
 
 Feel free to customize the design/appearance of your interface additions!
 
