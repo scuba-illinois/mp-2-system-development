@@ -10,7 +10,7 @@ For this MP, we're going to develop a simple browser extension using Javascript 
 
 **Task 1:** *highlight all posts in the front page of the r/science that has been highly upvoted*. More precisely, add a green box around the posts that have a score of at least 200.
 
-**Task 2:** *hide all posts in the front page of the r/science community that have not been highly upvoted until the user clicks to reveal the original post*. Specifically, add an *interstiatial* (i.e., an element that overlays another) to cover posts with a score less than 100. Add the ability to click the interstitial (or a button) to remove the interstitial and reveal the post.
+**Task 2:** *hide all posts in the front page of the r/science community that have not been highly upvoted until the user clicks to reveal the original post*. Specifically, add an *interstitial* (i.e., an element that overlays another) to cover posts with a score less than 100. Add the ability to click the interstitial (or a button) to remove the interstitial and reveal the post.
 
 Because of how Reddit renders its interface, please view the posts in **compact mode** (see the image below) and apply the highlight and interstitial elements to at least the top 10 posts. If you want to apply the elements to posts beyond the top 10, look into [**Mutation Observers**](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver), but this is not required!
 
@@ -84,3 +84,17 @@ Here is a sample workflow when you're developing:
 
 * `build-[NETID].zip`: the compressed build file. When extracted, the build folder inside should function when uploaded to the chrome extension page using the approach described above.
 * *A written report for both tasks:* Using [this](???) template, include a PDF file of a few paragraphs describing your approach for each task and include screenshots showing how your interface elements work.
+
+## Grading
+
+You will be evaluated on the tasks as follows:
+
+**Task 1:**
+
+* (2 points) Report template is completed.
+* (2 points) Highlight is implemented.
+
+**Task 2:**
+
+* (2 points) Report template is completed.
+* (2 point) Interstitial is implemented.
