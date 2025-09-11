@@ -41,7 +41,7 @@ To help you get started, we've provided you with a few starter files. Here is a 
 ## Setup
 
 ### Initializing and Installing
-Once you've cloned the repo, open up a terminal. I recommend opening up a terminal within your IDE (e.g., I use VS code's terminal). In the terminal, run the following commands to initialize `npm`, a package manager which will help you manage the packages needed for your tool.
+Once you've cloned the repo, open up a terminal. I recommend opening up a terminal within your IDE (e.g., I use VS code's terminal). In the terminal, `cd` into the cloned directory and run the following commands to initialize `npm`, a package manager which will help you manage the packages needed for your tool.
 
 ```bash
 npm init -y
@@ -65,6 +65,8 @@ Back in the terminal, run this command:
 npm run watch
 ```
 This helps rebuild your project automatically every time you save a new change to any of your files! The only exception is the `webpack.config.js` file. If you change that, you'll have to restart `npm run watch` manually to reflect the changes.
+
+If you hit an error at this point that says something like `Field 'browser' doesn't contain a valid alias configuration`, double check that you're in the root directory of the repository and that the `package.json` file you edited is also in the root directory. If you're not, `cd` into the repository and rerun the setup process.
 
 ### Adding the extension to your browser
 
