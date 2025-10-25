@@ -6,6 +6,15 @@ This repository contains the instructions and template files to complete our sec
 
 Training models and running statistical tests are powerful tools in an HCI researcher's toolbox, but how can a model or quantitative analysis actually reach communities and moderators? One way is by developing a tool or system that can be used in the real world by the target population. Interface design can enable researchers to implement novel interventions such as adding warnings to make users reflect (thread with caution), visualizations to add high-level summaries (convex), among many others.
 
+## Learning Objectives
+
+By the end of this MP, you will be able to:
+
+* Create a simple browser extension for Google Chrome
+* Work with Javascript and CSS to augment an existing webpage
+* Implement interactive interface features
+
+## Your Task
 For this MP, we're going to develop a simple browser extension using Javascript and CSS that will actually augment Reddit's interface to guide user attention where we want it to go! You have two tasks:
 
 **Task 1:** *highlight all posts in the front page of the r/science that has been highly upvoted*. More precisely, add a green box around the posts that have a score of at least 200.
